@@ -12,6 +12,7 @@ os module
 collections module
 
 For this project, I am using two datasets. One for Training and the other for testing. They can be found here:
+https://github.com/LanceRoyston/Intro-to-Machine-Learning-BSAN-6070-02/blob/main/CA02%20Spam%20Detector%20Using%20Naive%20Bayes/test%3Atrain-mails.zip
 
 Instructions on project were given by ArinB:
 https://github.com/ArinB
