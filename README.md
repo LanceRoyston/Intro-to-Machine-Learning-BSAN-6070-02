@@ -1,4 +1,4 @@
-# Intro-to-Machine-Learning-BSAN-6070-02
+# CA-01
 This Project was made for the purpose of practicing the process of preparing data to be used in an ML model and to potentially understand which features could be predicitve of house price. We start with analysing the macro perspective of the data in order to produce a data quality report. Then, based on the report we can begin cleaning the dataset in order to ensure its quality is sufficient for model building. 
 
 Libraries used in the environment to be able to run the code include: 
