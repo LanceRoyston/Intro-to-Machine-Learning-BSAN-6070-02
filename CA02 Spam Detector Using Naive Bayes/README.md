@@ -1,41 +1,58 @@
 # CA-02
 
-Building a Spam Detector Using Naive Bayes Algorithm
+# Building a Spam Detector Using Naive Bayes Algorithm
+
+## Overview: 
+
+This repository features a Jupyter Notebook implementing a simple spam detection program utilizing the Gaussian Naive Bayes Algorithm. The project involves training the model on a dataset containing 702 emails in text format, equally divided into 2 categories: spam and non-spam, and subsequently testing the model on a set of 260 emails. We will then compare the accuracy with the correct classification. 
+
+## Dataset: 
+
+The 2 datasets used in this project is available in the file [test:train-mails.zip](https://github.com/LanceRoyston/Intro-to-Machine-Learning-BSAN-6070-02/blob/main/CA02%20Spam%20Detector%20Using%20Naive%20Bayes/test%3Atrain-mails.zip). 
+
+Both datasets contain emails in text format, pre-sorted as spam or not spam: 
+Training: 702 emails
+Testing: 260 emails 
+
+## Requirements:
+
+Please ensure the following libraries are installed in your environment:
+
+- `numpy` 1.24.3
+- `sklearn` 1.3.0
+
+Python Standard Library modules used:
+
+- `os`
+- `collections`
+
+## Usage:
+
+To run this notebook:
+1. Clone the repository.
+2. Ensure Jupyter Notebook is installed; if not, install it using: `pip install notebook`
+
+## Insights: 
+
+After testing the Naive Bayes algorithm, the model achieved an accuracy of ~96.5% in distinguishing between spam and non-spam emails. Further experimentation involved slicing the feature matrix to test the model with different word counts -- 3000, 2500, 2000, 1500, and 1000. 
+
+The accuracy scores for each configuration: 
+
+2000 words: 97.31%
+3000 words: 96.54%
+2500 words and 1500 words: Both achieved 96.15%
+1000 words: 89.23%
+
+These results provide insights into the model's performance under different feature matrix compositions, with 2000 words yielding the highest accuracy. 
+
+Additionally, a confusion matrix and classification report have been included, providing insights into precision and recall.
+
+## Acknowledgment:
+
+This project follows the instructions provided by [ArinB](https://github.com/ArinB).
 
 
-Synopsis:
-This repository contains a Jupyter Notebook for the purpose of the creation of a simple spam detection program that uses Gaussian Naive Bayes Algorithm. The dataset used contains various emails in text format to be further analyzed. 
-
-In this exercise we shall train the model with set of emails labelled as either from Spam or Not Spam. There are 702 emails equally divided into spam and non spam category. Next, we shall test the model on 260 emails. We shall ask model to predict the category of these emails and compare the accuracy with correct classification that we already know.
 
 
-Dataset: 
-The dataset used in this project is test:train-mails.zip which contains 702 various emails in text format presorted as either spam or not spam. 
-
-For this project, I am using two datasets. One for Training and the other for testing. They can be found here:
-https://github.com/LanceRoyston/Intro-to-Machine-Learning-BSAN-6070-02/blob/main/CA02%20Spam%20Detector%20Using%20Naive%20Bayes/test%3Atrain-mails.zip
-
-
-Findings: 
-After testing our Naive Bayes algorithm we were able to acheive an accuracy of ~96.5% in successfully classifying an email as spam. We then did further testing by slicing our feature matrix in order to test the model on different word counts. Results proved to be similar with 3000 and 1000 most common words. We then also added a cofusion matrix and classification report so you can see precision and recall. 
-
-
-Requirements:
-Libraries used in the environment to be able to run the code include:
-
-numpy 1.24.3
-sklearn 1.3.0
-
-Python Standard Library
-os module
-collections module
-
-
-Usage:
-To run this notebook-
-Clone the repository. Ensure you have Jupyter Notebook installed. If not, install it using: pip install notebook
-
-Instructions on project were given by ArinB:
-https://github.com/ArinB
 
 
