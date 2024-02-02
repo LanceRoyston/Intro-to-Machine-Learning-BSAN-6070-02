@@ -10,14 +10,14 @@ In this exercise we shall train the model with set of emails labelled as either 
 
 
 Dataset: 
-The dataset used in this project is test:train-mails.zip which contains various emails in text format presorted as either spam or not spam. 
+The dataset used in this project is test:train-mails.zip which contains 702 various emails in text format presorted as either spam or not spam. 
 
 For this project, I am using two datasets. One for Training and the other for testing. They can be found here:
 https://github.com/LanceRoyston/Intro-to-Machine-Learning-BSAN-6070-02/blob/main/CA02%20Spam%20Detector%20Using%20Naive%20Bayes/test%3Atrain-mails.zip
 
 
 Findings: 
-After testing our Naive Bayes algorithm we were able to acheive an accuracy of ~96.5% in successfully classifying an email as spam. 
+After testing our Naive Bayes algorithm we were able to acheive an accuracy of ~96.5% in successfully classifying an email as spam. We then did further testing by slicing our feature matrix in order to test the model on different word counts. Results proved to be similar with 3000 and 1000 most common words. We then also added a cofusion matrix and classification report so you can see precision and recall. 
 
 
 Requirements:
