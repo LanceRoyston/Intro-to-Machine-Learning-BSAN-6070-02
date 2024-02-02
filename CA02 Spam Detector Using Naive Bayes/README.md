@@ -4,7 +4,7 @@ CA02
 ## Overview:
 This repository features a Jupyter Notebook implementing a simple spam detection program utilizing the Gaussian Naive Bayes Algorithm. The project involves training the model on a dataset containing 702 emails in text format, equally divided into 2 categories: spam and non-spam, and subsequently testing the model on a set of 260 emails. We will then compare the accuracy with the correct classification.
  
-##Datasets:
+## Datasets:
  
 The 2 datasets used in this project is available in the file [test:train-mails.zip](https://github.com/LanceRoyston/Intro-to-Machine-Learning-BSAN-6070-02/blob/main/CA02%20Spam%20Detector%20Using%20Naive%20Bayes/test%3Atrain-mails.zip).
  
