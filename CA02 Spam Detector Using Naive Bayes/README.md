@@ -18,7 +18,7 @@ Please ensure the following libraries are installed in your environment:
 - `numpy` 1.24.3
 - `sklearn` 1.3.0
  
-\nPython Standard Library modules used:
+# Python Standard Library modules used:
  
 - `os`
 - `collections`
