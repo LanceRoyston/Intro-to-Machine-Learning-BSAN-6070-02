@@ -17,7 +17,7 @@ https://github.com/LanceRoyston/Intro-to-Machine-Learning-BSAN-6070-02/blob/main
 
 
 Findings: 
-After testing our Naive Bayes algorithm we were able to acheive an accuracy of ~96.5% in successfully classifying an email as spam. We then did further testing by slicing our feature matrix in order to test the model on different word counts. Results proved to be similar with 3000 and 1000 most common words. We then also added a cofusion matrix and classification report so you can see precision and recall. 
+After testing our Naive Bayes algorithm we were able to acheive an accuracy of ~96.5% in successfully classifying an email as spam. We then did further testing by slicing our feature matrix in order to test the model on different word counts. Results proved to be similar with 3000 and 1000 most common words with 2000 having the highest accuracy. We then also added a cofusion matrix and classification report so you can see precision and recall. 
 
 
 Requirements:
