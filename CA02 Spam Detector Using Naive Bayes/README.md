@@ -18,7 +18,7 @@ Please ensure the following libraries are installed in your environment:
 - `numpy` 1.24.3
 - `sklearn` 1.3.0
  
-Python Standard Library modules used:
+##Python Standard Library modules used:
  
 - `os`
 - `collections`
@@ -34,7 +34,8 @@ After testing the Naive Bayes algorithm, the model achieved an accuracy of ~96.5
 The accuracy scores for each configuration:
 - 2000 words: 97.31%
 - 3000 words: 96.54%
-- 2500 words and 1500 words: Both achieved 96.15%
+- 2500 words: 96.15%
+- 1500 words: 96.15%
 - 1000 words: 89.23%
 ### These results provide insights into the model's performance under different feature matrix compositions, with 2000 words yielding the highest accuracy.
 Additionally, a confusion matrix and classification report have been included, providing insights into precision and recall.
