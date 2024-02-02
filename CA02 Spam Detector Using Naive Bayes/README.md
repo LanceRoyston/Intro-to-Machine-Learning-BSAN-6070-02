@@ -23,8 +23,8 @@ Please ensure the following libraries are installed in your environment:
 ## Usage:
  
 To run this notebook:
-- 1.Clone the repository.
-- 2.Ensure Jupyter Notebook is installed; if not, install it using: `pip install notebook`
+- Clone the repository.
+- Ensure Jupyter Notebook is installed; if not, install it using: `pip install notebook`
  
 ## Insights:
 After testing the Naive Bayes algorithm, the model achieved an accuracy of ~96.5% in distinguishing between spam and non-spam emails. Further experimentation involved slicing the feature matrix to test the model with different word counts -- 3000, 2500, 2000, 1500, and 1000.
