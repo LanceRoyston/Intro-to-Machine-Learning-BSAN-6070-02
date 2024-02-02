@@ -16,10 +16,7 @@ Testing: 260 emails
 Please ensure the following libraries are installed in your environment:
  
 - `numpy` 1.24.3
-- `sklearn` 1.3.0
- 
-# Python Standard Library modules used:
- 
+- `sklearn` 1.3.0 
 - `os`
 - `collections`
  
