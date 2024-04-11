@@ -1,53 +1,45 @@
+# Spotiflow: Enhance Your Spotify Experience
 
-# Movie Recommender Using K-Nearest Neighbors
+## Project Description
 
-This project demonstrates the application of the K-Nearest Neighbors (K-NN) algorithm to recommend movies similar to a given movie, in this case, 'The Post'. The approach involves feature scaling and model fitting with movie data.
+We are helping Spotify users who wish to enhance their music streaming experience by providing personalized insights into their listening habits. Our project, Spotiflow, solves the problem of limited user engagement with the Spotify application by enabling users to visualize their recent vibes and find customized recommendations filtered by artist. This personalization leads to discovery of music that resonates more deeply with the user's preferences. The project is inspired by a [job post](docs/job-post.pdf) seeking innovative ways to increase user engagement through data analytics and visualization.
 
-## Getting Started
+## Project Structure
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+- `code`: Contains all the programming code for Spotiflow, including scripts for data processing and algorithms for recommendation.
+- `dashboards`: Stores interactive dashboards developed for users to visualize their listening habits.
+- `data`: Holds all the datasets used in the project, such as user listening data.
+- `docs`: Includes project documentation, proposals, and the job post PDF that inspired the project.
+- `models`: Contains data models that drive the recommendation algorithms.
+- `presentations`: Holds presentation materials for showcasing the project to stakeholders.
+- `tests`: Stores tests written to ensure the quality and reliability of our codebase.
 
-### Prerequisites
+## Skills
 
-What you need to install the software and how to install them:
+### Business/Problem Solving
+- User Experience Design
+- Customer Engagement Strategies
+- Market Analysis
 
-```bash
-# Example
-pip install pandas scikit-learn matplotlib seaborn
-```
+### Analytics
+- Data Visualization
+- User Behavior Analysis
 
-### Installing
+### Technology
+- Programming (Python, SQL)
+- Data Modeling
+- Interactive Dashboard Development (Tableau)
 
-A step-by-step series of examples that tell you how to get a development environment running:
+## Analytics Maturity Scale
 
-1. Clone the repo:
-```bash
-git clone <this_repo_url>
-```
+### Aspire (Descriptive Analytics)
+Phase where we assess current user engagement levels. Deliverables include initial data reports and user engagement dashboards.
 
-2. Install the required packages:
-```bash
-pip install -r requirements.txt
-```
+### Mature (Diagnostic Analytics)
+Analysis of why user engagement is at its current level. Deliverables include insight reports on listening habits and engagement patterns.
 
-## Usage
+### Industrailize (Predictive Analytics)
+We use user data to predict future listening habits and preferences. Deliverables include a predictive model for user preferences.
 
-1. **Data Preparation**: The data for the movies is prepared and visualized to understand the distribution of various features.
-
-2. **Feature Set Definition**: Features are defined for the K-NN model.
-
-3. **Feature Scaling**: Input features for the model are scaled for optimal performance.
-
-4. **Model Training**: The K-NN model is trained with the scaled features.
-
-5. **Prediction**: The model predicts the 5 most similar movies to 'The Post'.
-
-## Built With
-
-- [Pandas](https://pandas.pydata.org/) - For data manipulation and analysis.
-- [Scikit-Learn](https://scikit-learn.org/stable/) - For machine learning model implementation.
-- [Matplotlib](https://matplotlib.org/) & [Seaborn](https://seaborn.pydata.org/) - For data visualization.
-
-## Authors
-
-- **Andrew Morris** - *Initial work*
+### Realize (Prescriptive Analytics)
+Developing recommendations to increase user engagement based on predictions. Deliverables consist of personalized recommendation algorithms and user interface for recommendation visualization.
