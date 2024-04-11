@@ -2,7 +2,7 @@
 
 ## Project Description
 
-We are helping Spotify users who wish to enhance their music streaming experience by providing personalized insights into their listening habits. Our project, Spotiflow, solves the problem of limited user engagement with the Spotify application by enabling users to visualize their recent vibes and find customized recommendations filtered by artist. This personalization leads to discovery of music that resonates more deeply with the user's preferences. The project is inspired by a [job post](docs/job-post.pdf) seeking innovative ways to increase user engagement through data analytics and visualization.
+We are helping Spotify users who wish to enhance their music streaming experience by providing personalized insights into their listening habits. Our project, Spotiflow, solves the problem of limited user engagement with the Spotify application by enabling users to visualize their recent vibes and find customized recommendations filtered by artist. This personalization leads to discovery of music that resonates more deeply with the user's preferences. The project is inspired by a [job post](docs/proposal/SPOTIFY_2024_SUMMER_INTERNSHIP_DATA_SCIENCE.pdf) seeking innovative ways to increase user engagement through data analytics and visualization.
 
 ## Project Structure
 
